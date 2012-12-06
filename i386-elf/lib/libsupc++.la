@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/test/build/toolchains/i386-elf/tools/i386-elf/lib'
+libdir='/gnutools/builds/toolchains/i386-elf/tools/i386-elf/lib'

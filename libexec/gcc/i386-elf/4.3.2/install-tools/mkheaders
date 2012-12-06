@@ -54,7 +54,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/test/build/toolchains/i386-elf/tools
+  prefix=/gnutools/builds/toolchains/i386-elf/tools
 fi
 
 # Allow for alternate isysroot in which to find headers

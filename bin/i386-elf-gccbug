@@ -344,12 +344,12 @@ SEND-PR: support             I need help with gcc.
 `[ -n "$ARCH" ] && echo Architecture: $ARCH`
 `[ -n "$MACHINE" ] && echo Machine: $MACHINE`
 	$ENVIRONMENT_C
-host: i686-pc-linux-gnu
-build: i686-pc-linux-gnu
+host: i686-pc-cygwin
+build: i686-pc-cygwin
 target: i386-pc-elf
 __EOF__
       cat >> $file << \__EOF__
-configured with: /home/test/src/toolchains/gcc/gcc-4.3.2/configure -v --target=i386-elf --prefix=/home/test/build/toolchains/i386-elf/tools --with-newlib --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --disable-__cxa_atexit --enable-threads --with-bugurl=http://bugs.ecos.sourceware.org/ --with-pkgversion='eCosCentric GNU tools 4.3.2-sw' --with-gmp=/opt/gmp-4.2.2 --with-mpfr=/opt/mpfr-2.3.0
+configured with: /gnutools/src/toolchains/gcc/gcc-4.3.2/configure -v --target=i386-elf --prefix=/gnutools/builds/toolchains/i386-elf/tools --with-newlib --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --disable-__cxa_atexit --enable-threads --with-bugurl=http://bugs.ecos.sourceware.org/ --with-pkgversion='eCosCentric GNU tools 4.3.2-sw'
 __EOF__
       cat >> $file << __EOF__
 >Description:
